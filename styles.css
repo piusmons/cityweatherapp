@@ -1,0 +1,72 @@
+
+html *
+{
+  font-family: "georgia";
+}
+.page {
+  height: 100%;
+  width: 100%;
+  background: #696969;
+
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex-wrap: nowrap;
+ 	justify-content: flex-start;
+ 	align-items: center;
+ 	align-content: stretch;
+
+}
+
+.container {
+  height: 25vh;
+  width: 25vw;
+  border-radius: 42px;
+  border-radius: 42px;
+  background: #696969;
+  box-shadow:  5px 5px 11px #5a5a5a,
+             -5px -5px 11px #787878;
+
+
+}
+
+.form {
+  display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+  margin: 65px
+
+}
+
+input[type=text] {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  background: #696969;
+  box-shadow: inset 5px 5px 14px #535353,
+            inset -5px -5px 14px #7f7f7f;
+
+
+}
+
+input[type=button] {
+  margin-top: 10px;
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  background: #696969;
+  -webkit-box-shadow: 9px 9px 20px #5a5a5a, -9px -9px 20px #787878;
+  box-shadow: 9px 9px 20px #5a5a5a, -9px -9px 20px #787878;
+  height: 50px;
+  width: 145px;
+  font-size: 1rem;
+}
+
+#gifWeather {
+
+  margin-top: 10vh;
+}
+
+#weatherText {
+  margin-top: 75px;
+  font-size: 3rem;
+}
